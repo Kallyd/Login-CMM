@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fa6900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*! The Style */
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.login-page > .login-container {
+  max-width: 800px;
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 2rem;
+  filter: drop-shadow(-10px 5px 2px #00000080);
+}
+
+/*! Left Side */
+.login-page > .login-container > .login-left-side {
+  width: 50%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  background-color: #cf5700;
+  color: #fff;
+}
+
+.login-page > .login-container > .login-left-side > h2 {
+  font-size: 4rem;
+}
+
+.login-page > .login-container > .login-left-side > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.login-page > .login-container > .login-left-side > div > h1 {
+  font-size: 7rem;
+  font-weight: 600;
+}
+
+.login-page > .login-container > .login-left-side > div > p {
+  font-weight: 500;
+}
+
+/*! Mid Side */
+.login-page > .login-container > .login-mid-side {
+  min-height: 450px;
+  position: relative;
+}
+
+.login-page > .login-container > .login-mid-side > img {
+  position: absolute;
+  left: -30px;
+  top: 43%;
+}
+
+/*! Right Side */
+.login-page > .login-container > .login-right-side {
+  width: 60%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.login-page > .login-container > .login-right-side > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.login-page > .login-container > .login-right-side > div > h1:nth-child(2) {
+  margin-left: 90px;
+  background-color: #fa6900;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  font-weight: 400;
+}
+
+.login-page > .login-container > .login-right-side > form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login-page > .login-container > .login-right-side > form > .input-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-page
+  > .login-container
+  > .login-right-side
+  > form
+  > .input-area
+  > input {
+  width: 60%;
+  font-size: 1.8rem;
+  padding: 1.5rem 1rem 1.5rem 5rem;
+  border-radius: 0.8rem;
+  border: 2px solid black;
+}
+
+.login-page > .login-container > .login-right-side > form > .input-area > img {
+  position: relative;
+  z-index: 999;
+  margin-right: -4.5rem;
+}
+
+.login-page > .login-container > .login-right-side > form > button {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+  background-color: #fa6900;
+  color: #fff;
+  transition: all ease 300ms;
+}
+
+.login-page > .login-container > .login-right-side > form > button:hover {
+  cursor: pointer;
+  background-color: #cf5700;
+}
+
+.login-page > .login-container > .login-right-side > span {
+  font-weight: 500;
+}
+
+.login-page > .login-container > .login-right-side > span > a {
+  text-decoration: none;
+  color: #fa6900;
+  transition: all ease 300ms;
+}
+
+.login-page > .login-container > .login-right-side > span > a:hover {
+  color: #943e00;
+}
